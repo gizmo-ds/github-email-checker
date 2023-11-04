@@ -1,0 +1,22 @@
+{
+  "name": "github-email-checker",
+  "author": {
+    "name": "Gizmo",
+    "email": "cunyu@liuli.lol"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/gizmo-ds/github-email-checker",
+  "private": true,
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  }
+}
