@@ -97,6 +97,7 @@ async function get_rate_limit() {
 }
 
 async function get_repos(user: string, page = 1) {
+  if (user === '') return []
   return await req(
     'GET',
     `https://api.github.com/users/${user}/repos?per_page=100&page=${page}`
